@@ -58,6 +58,12 @@
           <el-table-column prop="address" label="地址">
           </el-table-column>
         </el-table>
+        <el-pagination
+          background
+          layout="prev, pager, next"
+          :page-size="20"
+          :total="1000">
+        </el-pagination>
       </el-main>
 
     </el-container>
